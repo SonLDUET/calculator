@@ -1,0 +1,67 @@
+@charset "utf-8";
+body{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+}
+#khung{
+    padding: 0px 0px 15px 15px;
+    background: rgba(63, 105, 95, 0.651);
+    border: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    width: 320px;
+    height: 335px;
+}
+
+#ketqua{
+    border: 3px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: right;
+}
+
+.clear_all{
+    clear: both;
+}
+
+.button{
+    margin: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(49, 184, 150, 0.651);
+    border: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.button_first{
+    margin: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(49, 184, 150, 0.651);
+    border: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+.button_first:hover{
+    background-color: aquamarine;
+}
